@@ -166,6 +166,15 @@ body {
   text-decoration: underline;
 }
 
+#dev-container{
+  display: flex;
+  justify-content: center;
+}
+#dev-div{
+  margin: 10px;
+  max-width: 800px;
+}
+
 @media (max-width: 768px) {
   .article-card {
       width: 100%;
