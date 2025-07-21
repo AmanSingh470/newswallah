@@ -11,7 +11,7 @@ connectToMongo(Mongo_DB_URI)
 
 const app = express()
 const port = 5000
-
+app.use(cors());
 app.use(cors(
 	{
 		origin: ["https://newswallah-aman.vercel.app"],
