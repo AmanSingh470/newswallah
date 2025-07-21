@@ -14,7 +14,7 @@ const port = 5000
 
 app.use(cors(
 	{
-		origin: ["https://newswallah-chi.vercel.app"],
+		origin: ["https://newswallah-aman.vercel.app"],
 		methods: ["POST","GET"],
 		credentials: true
 	}
