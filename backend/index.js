@@ -13,7 +13,7 @@ const app = express()
 const port = 5000
 app.use(cors(
 	{
-		origin: ["https://newswallah-aman.vercel.app/","https://newswallah-nitesh.vercel.app/"],
+		origin: ["https://newswallah-aman.vercel.app","https://newswallah-nitesh.vercel.app"],
 		methods: ["POST","GET"],
 		credentials: true
 	}
