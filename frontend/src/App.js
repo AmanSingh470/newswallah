@@ -18,7 +18,6 @@ function App() {
       <Navbar />
         <Routes>
           <Route path="/" element={<Home />}/>
-          // <Route path="/about" element={<AboutDeveloper />}/>
           <Route path="/topheadlines" element={<News key="topheadlines" category="topheadlines"/>}/>
           <Route path="/sports" element={<News key="sports" category="sports"/>}/>
           <Route path="/entertainment" element={<News key="entertainment" category="entertainment"/>}/>
